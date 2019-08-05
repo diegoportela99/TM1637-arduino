@@ -4,7 +4,7 @@
 TM1637 tm1637(CLK,DIO);
 TM1637 display(CLK, DIO);
 
-byte timecount = 0;
+int timecount = 0; //time count as int and not byte
 byte digits; //reference point
 
 typedef struct {
