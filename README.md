@@ -10,7 +10,7 @@ void loop() {
   timecount = 1234;
   timesetup();
   
-  delay(15); //delay can be anything to the users disgression
+  delay(15); //delay can be anything to the users discretion
   ...
 }
 
